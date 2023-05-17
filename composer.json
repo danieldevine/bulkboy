@@ -1,0 +1,25 @@
+{
+    "name": "coderjerk/bulkboy",
+    "description": "Bulk create pages, posts and any custom post type.",
+    "type": "wordpress-plugin",
+    "license": "GPL v3",
+    "authors": [
+        {
+            "name": "Dan Devine",
+            "email": "dandevine0@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bulkboy\\": "inc/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
