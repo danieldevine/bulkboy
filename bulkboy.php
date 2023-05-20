@@ -3,13 +3,13 @@
  * Bulkboy plugin.
  *
  * @package Bulkboy
- * @since 1.0.0
+ * @since 1.0.1
  *
  * @wordpress-plugin
  * Plugin Name: Bulkboy
  * Plugin URI: https://coderjerk.com/bulkboy
  * Description: Bulk add pages, posts and custom post types.
- * Version: 1.0.0
+ * Version: 1.0.1
  * License: GPLv3
  * Text Domain: bulkboy
  * Author: Dan Devine <dandevine0@gmail.com>
@@ -33,7 +33,7 @@ if ( ! defined( 'BULKBOY_PLUGIN_PATH' ) ) {
 	define( 'BULKBOY_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 }
 
-define( 'BULKBOY_CURRENT_VERSION', '1.0' );
+define( 'BULKBOY_CURRENT_VERSION', '1.0.1' );
 
 $admin = new Admin( 'Bulkboy' );
 
