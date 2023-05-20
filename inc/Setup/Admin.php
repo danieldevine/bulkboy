@@ -42,7 +42,7 @@ class Admin {
 	}
 
 	/**
-	 * Enqueues bulkboy's css.
+	 * Enqueues Bulkboy's css.
 	 *
 	 * @return void
 	 */
@@ -51,7 +51,7 @@ class Admin {
 	}
 
 	/**
-	 * Inserts bulkboy's menu as a submenu under Tools.
+	 * Lists Bulkboy under the WordPress 'Tools' menu.
 	 *
 	 * @return void
 	 */
